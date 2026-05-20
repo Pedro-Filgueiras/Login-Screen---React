@@ -1,19 +1,10 @@
-import React,{useState} from 'react'
+import JogoDoClique from "./components/JogoDoClique";
 
-export default function App() {
 
-  const [nome,setNome] = useState ('')
-
+export default function App(){
+  
   return (
-    <>
-      <label>Digite seu Nome:</label>
-      <input 
-        type='text' 
-        name='fnome'
-        value={nome} 
-        onChange={(e)=>{setNome(e.target.value)}}
-      />
-      <p>Nome digitado:</p>
-    </>
+    <JogoDoClique/>
   )
 }
+

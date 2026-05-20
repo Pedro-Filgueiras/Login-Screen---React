@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+div {
+    width: 450px;
+    min-height: 20vh;
+}
+
+.tema-escuro{    
+    background-color: #000;
+}
+
+.white-font {
+    color: #fff;
+}
